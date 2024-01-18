@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile</title>
+    <style>
+      img {
+        display: block;
+        margin-left: 10px;
+        margin-right: 150px;
+      }
+    </style>
+  </head>
+  <body style="background-color: pink">
+    <div>
+      <img src="/images/logo2.jpeg" alt="Logo" style="width: 15%" />
+      <h1>Student Profile</h1>
+      <form>
+        <table>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="initial" checked />Mr.
+              <input type="radio" name="initial" />Mrs.
+              <input type="radio" name="initial" />Ms.
+            </td>
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td><input type="text" name="fname" placeholder="First Name" /></td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lname" placeholder="Last Name" /></td>
+          </tr>
+          <tr>
+            <td>Street Address</td>
+            <td><input type="text" name="add" /></td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td><input type="text" name="city" /></td>
+          </tr>
+          <tr>
+            <td>Zip</td>
+            <td><input type="text" name="zip" /></td>
+          </tr>
+          <tr>
+            <td>Program:</td>
+            <td>
+              <select name="program">
+                <option value="IT-Tech for women">IT-Tect for women</option>
+                <option value="IT-Front end Developer">
+                  IT-Front end Developer
+                </option>
+                <option value="Nurse specializing in health">
+                  Nurse specialzing in health
+                </option>
+                <option value="Teaching assistant">Teaching assistant</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload Photo</td>
+            <td><input type="file" name="photo" /></td>
+          </tr>
+          <tr>
+            <td>E-Mail</td>
+            <td><input type="text" name="email" size="25" /></td>
+          </tr>
+          <tr>
+            <td>Mobile</td>
+            <td><input type="text" name="mobile" placeholder="+46" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div>
+      <h3>Choose your favorite Web language:</h3>
+      <form>
+        <input type="radio" id="html" name="fav_lang" value="HTML" />
+        <label for="html">HTML</label>
+        <br />
+        <input type="radio" id="css" name="fav_lang" value="CSS" />
+        <label for="css">CSS</label>
+        <br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_lang"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div>
+      <h2>IT-Front end Developer &#128421;</h2>
+
+      <h3>Course Content &#128218;</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Figma</li>
+        <li>Modern design libraries</li>
+        <li>Modern frameworks</li>
+        <li>Git/GitHub</li>
+        <li>Visual Studio Code</li>
+        <li>Programming techniques</li>
+        <li>Agile work</li>
+      </ul>
+
+      <h3>Degree and Certificate &#127891;</h3>
+      <p>
+        <strong>After</strong> <em>completion</em> and
+        <u>passing the course</u>, participants will receive a
+        <span style="border: 3px solid white">certificate</span> of course
+        completion.
+      </p>
+    </div>
+  </body>
+</html>
